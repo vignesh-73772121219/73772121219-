@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vb;
+    background-image: url(vlc\ 2.jpg);
+    background-size: 100% 100%;
+}
+.form{
+    
+    width: 420px;
+    padding: 30px 30px;
+    border: 2px solid ;
+    border-radius: 20px;
+    backdrop-filter:blur(5px);
+}
+h1{
+    font-size: 36px;
+    text-align: center;
+    color: aliceblue;
+    
+}
+.ip{
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+   
+}
+.ip input{
+    width: 100%;
+    height: 50px;
+    color: aliceblue;
+    border: 1px solid color(srgb red green blue);
+    border-radius: 20px;
+    font-size: 16px;
+    padding: 20px 45px 20px 20px;  
+    background-color: transparent;
+}
+.ip input::placeholder{
+    color:aliceblue;
+}
+.al{
+    margin: 20px 0;
+    color: aliceblue;
+}
+.en button{
+    width: 50%;
+    height: 45px;
+    border-radius: 40px;
+    font-size: 16px; 
+}
+.en{
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <div class=" form">
+        <form>
+            <h1> Sign up </h1>
+            <div class="ip">
+            
+            <input type="text" placeholder="User Name" required>
+            
+           
+        </div>
+            
+            <div class="ip">
+            
+            <input type="email" placeholder="Email" required >
+            
+        </div>
+        <div class="ip">
+            
+            <input type="number" placeholder="Ph no" required>
+            
+           
+        </div>
+        <div class="ip">
+            
+            <input type="password" placeholder="Password" required>
+            
+           
+        </div>
+
+        <div class="ip">
+            
+            <input type="password" placeholder="Confirm password" required>
+            
+           
+        </div>
+        <div class="al">
+            <label><input type="checkbox" required> accept all terms and conditions</label>
+        </div>
+        <div class="en">
+            
+            <button type="submit" >Sign up</button>
+        </div> 
+        </div>
+    </form>
+    
+</body>
+</html>
